@@ -29,7 +29,7 @@ This project is a web scraping application designed to extract hotel details fro
 3. The extracted data is **saved into a CSV file** in the local directory.
 4. The program implements **random sleep intervals** to mimic human behavior and avoid blocking.
 
-## 🚀 How to Run the Script
+## How to Run the Script
 1. Install required dependencies:
    ```bash
    pip install beautifulsoup4 requests lxml
@@ -41,7 +41,7 @@ This project is a web scraping application designed to extract hotel details fro
 3. Enter the Booking.com **URL** and **file name** when prompted.
 4. The data will be **scraped and saved** as a CSV file.
 
-## 📌 Example Output (CSV Format)
+## Example Output (CSV Format)
 ```
 hotel_name, locality, price, rating, score, review, link
 "The Grand Hotel", "Mumbai, India", "₹5000", "4.5", "9.2", "1200 reviews", "https://booking.com/example"
